@@ -1,4 +1,6 @@
-'use strict';
+/* eslint-disable quotes */
+/* eslint-disable prettier/prettier */
+
 
 const pageResults = require('graph-results-pager');
 
@@ -24,15 +26,7 @@ module.exports = {
 	graphAPIEndpoints,
 	sushi,
 	blocks,
-	charts,
 	exchange,
-	exchange_v1,
-	masterchef,
-	bar,
-	maker,
-	timelock,
-	lockup,
-	bentobox,
 	utils,
 	async timeseries({blocks = undefined, timestamps = undefined, target = undefined} = {}, targetArguments) {
 		if(!target) { throw new Error("sushi-data: Target function undefined"); }
