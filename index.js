@@ -10,15 +10,7 @@ const { graphAPIEndpoints } = require('./constants')
 
 const sushi = require('./queries/sushi');
 const blocks = require('./queries/blocks');
-const charts = require('./queries/charts');
 const exchange = require('./queries/exchange');
-const exchange_v1 = require('./queries/exchange_v1')
-const masterchef = require('./queries/masterchef');
-const bar = require('./queries/bar')
-const maker = require('./queries/maker')
-const timelock =  require('./queries/timelock');
-const lockup = require('./queries/lockup');
-const bentobox = require('./queries/bentobox');
 const utils = require('./utils');
 
 module.exports = {
